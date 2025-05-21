@@ -14,7 +14,6 @@ TypeScript
 
 Tailwind CSS
 
-Optional: Spatie Activity Log, stancl/tenancy
 
 🏗️ Features
 
@@ -54,7 +53,7 @@ Calls Laravel API using useFetch.
 
 Clone repo & install dependencies:
 
-cd backend
+cd mtems-api
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -73,7 +72,7 @@ php artisan serve
 
 Install dependencies:
 
-cd frontend
+cd mtems-frontend
 npm install
 
 Add API base URL to .env:
